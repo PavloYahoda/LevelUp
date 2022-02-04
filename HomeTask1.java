@@ -7,6 +7,5 @@ public class HomeTask1 {
         System.out.println("y= "+y);
         System.out.printf("Z= %.3f %n", Z);
         System.out.printf("S= %.3f %n", S);
-
         }
 }
