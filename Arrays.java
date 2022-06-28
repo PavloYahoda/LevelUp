@@ -54,12 +54,12 @@ public class Arrays {
     }
     public static void part3(){
         int[][] array3 = new int[5][];
-        int c = 1;
+        int count = 1;
 
         for (int i = 0; i < array3.length; i++) {
             array3[i] = new int[i + 1];
             for (int j = 0; j <= i; j++) {
-                array3[i][j] = c++;
+                array3[i][j] = count++;
             }
             System.out.println(java.util.Arrays.toString(array3[i]));
             System.out.println("\nNext part?");
